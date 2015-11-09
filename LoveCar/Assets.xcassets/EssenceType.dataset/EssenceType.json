@@ -1,0 +1,28 @@
+[
+    
+        {
+            "essenceName": "爱车一族",
+            "essenceId": 0,
+            
+        }
+        ,
+        {
+            "essenceName": "走南闯北",
+            "essenceId": 1,
+
+        }
+        ,
+
+       {
+            "essenceName": "时尚生活",
+            "essenceId": 2,
+
+       },
+
+        {
+            "essenceName": "其他分类",
+            "essenceId": 3,
+
+        }
+   
+]

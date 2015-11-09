@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="GUw-sV-ndc" customClass="ZXForumTopTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GUw-sV-ndc" id="hEP-LQ-Z3k">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Cs-NY-Btg">
+                        <rect key="frame" x="8" y="8" width="53" height="53.5"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="53" id="14X-iq-S7z"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nv1-UR-WWk">
+                        <rect key="frame" x="69" y="24" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="2Cs-NY-Btg" firstAttribute="leading" secondItem="hEP-LQ-Z3k" secondAttribute="leading" constant="8" id="CE8-Dl-Hg4"/>
+                    <constraint firstItem="nv1-UR-WWk" firstAttribute="centerY" secondItem="hEP-LQ-Z3k" secondAttribute="centerY" id="MMe-mo-6QE"/>
+                    <constraint firstItem="nv1-UR-WWk" firstAttribute="leading" secondItem="2Cs-NY-Btg" secondAttribute="trailing" constant="8" id="QaG-MO-jUG"/>
+                    <constraint firstAttribute="bottom" secondItem="2Cs-NY-Btg" secondAttribute="bottom" constant="8" id="g8a-cF-dU2"/>
+                    <constraint firstItem="2Cs-NY-Btg" firstAttribute="top" secondItem="hEP-LQ-Z3k" secondAttribute="top" constant="8" id="vLG-7o-Ws4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="iconImageView" destination="2Cs-NY-Btg" id="1ok-P8-Zjk"/>
+                <outlet property="titleLabel" destination="nv1-UR-WWk" id="350-ab-Afy"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="295"/>
+        </tableViewCell>
+    </objects>
+</document>

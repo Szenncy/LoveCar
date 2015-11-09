@@ -1,0 +1,450 @@
+[
+    [
+
+
+        {
+            "name": "5万以下",
+            "id": 1,
+            "attribute":"price"
+        }
+,
+     {
+     "name": "5-8万",
+     "id":2,
+     "attribute":"price"
+     }
+,
+     {
+     "name": "8-12万",
+     "id": 3,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "12-18万",
+     "id": 4,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "18-25万",
+     "id": 5,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "25-35万",
+     "id": 6,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "35-50万",
+     "id": 7,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "50-70万",
+     "id": 8,
+     "attribute":"price"
+     }
+     ,
+     {
+     "name": "70万以上",
+     "id": 9,
+     "attribute":"price"
+     }
+     
+    ]
+,
+[
+ {
+ "name": "微型车",
+ "id": 1,
+ "attribute":"level",
+ "imgUrl":"weixing",
+ "imgUrl_black":"weixing_black",
+ "imgUrl_h":"weixing_h",
+  "imgUrl_black_h":"weixing_black_h"
+ }
+ ,
+ {
+ "name": "小型车",
+ "id": 2,
+ "attribute":"level",
+ "imgUrl":"xiaoxingche",
+ "imgUrl_black":"xiaoxingche_black",
+ "imgUrl_h":"xiaoxingche_h",
+ "imgUrl_black_h":"xiaoxingche_black_h"
+ }
+ ,
+ {
+ "name": "紧凑型车",
+ "id": 3,
+ "attribute":"level",
+ "imgUrl":"jincou",
+ "imgUrl_black":"jincou_black",
+ "imgUrl_h":"jincou_h",
+ "imgUrl_black_h":"jincou_black_h"
+ 
+ }
+ ,
+ {
+ "name": "中型车",
+ "id": 4,
+ "attribute":"level",
+ "imgUrl":"zhongxing",
+ "imgUrl_black":"zhongxingche_black",
+ "imgUrl_h":"zhongxingche_h",
+ "imgUrl_black_h":"zhongxingche_black_h"
+ }
+ ,
+ {
+ "name": "中大型车",
+ "id": 5,
+ "attribute":"level",
+ "imgUrl":"zhongdaxing",
+ "imgUrl_black":"zhongdaxing_black",
+ "imgUrl_h":"zhongdaxing_h",
+ "imgUrl_black_h":"zhongdaxing_black_h"
+ }
+ ,
+ {
+ "name": "豪华车",
+ "id": 6,
+ "attribute":"level",
+ "imgUrl":"haohua",
+ "imgUrl_black":"haohua_black",
+ "imgUrl_h":"haohua_h",
+ "imgUrl_black_h":"haohua_black_h"
+ }
+ ,
+ {
+ "name": "SUV越野",
+ "id": 7,
+ "attribute":"level",
+ "imgUrl":"suv",
+ "imgUrl_black":"suv_black",
+ "imgUrl_h":"suv_h",
+ "imgUrl_black_h":"suv_black_h"
+ }
+ ,
+ {
+ "name": "MPV商务",
+ "id": 8,
+ "attribute":"level",
+ "imgUrl":"mpv",
+ "imgUrl_black":"mpv_black",
+ "imgUrl_h":"mpv_h",
+ "imgUrl_black_h":"mpv_black_h"
+ }
+ ,
+ {
+ "name": "跑车",
+ "id": 9,
+ "attribute":"level",
+ "imgUrl":"paoche",
+ "imgUrl_black":"paoche_black",
+ "imgUrl_h":"paoche_h",
+ "imgUrl_black_h":"paoche_black_h"
+ }
+ 
+ ]
+,
+[
+ {
+ "name": "自主",
+ "id": 1,
+ "attribute":"nation",
+ "imgUrl":"china",
+ "imgUrl_black":"china_black"
+ }
+ ,
+ {
+ "name": "德国",
+ "id": 2,
+ "attribute":"nation",
+ "imgUrl":"g",
+ "imgUrl_black":"g_black"
+ }
+ ,
+ {
+ "name": "日本",
+ "id": 3,
+ "attribute":"nation",
+ "imgUrl":"j",
+  "imgUrl_black":"j_black"
+ }
+ ,
+ {
+ "name": "美国",
+ "id": 4,
+ "attribute":"nation",
+ "imgUrl":"usa",
+ "imgUrl_black":"usa_black"
+ }
+ ,
+ {
+ "name": "韩国",
+ "id": 5,
+ "attribute":"nation",
+ "imgUrl":"k",
+ "imgUrl_black":"k_black"
+ }
+ ,
+ {
+ "name": "法国",
+ "id": 6,
+ "attribute":"nation",
+ "imgUrl":"f",
+ "imgUrl_black":"f_black"
+ }
+ ,
+ {
+ "name": "英国",
+ "id": 7,
+ "attribute":"nation",
+ "imgUrl":"uk",
+ "imgUrl_black":"uk_black"
+ }
+ ,
+ {
+ "name": "意大利",
+ "id": 8,
+ "attribute":"nation",
+ "imgUrl":"Italy",
+ "imgUrl_black":"Italy_black"
+ }
+ ,
+ {
+ "name": "其他",
+ "id": 9,
+ "attribute":"nation",
+ "imgUrl":"global",
+ "imgUrl_black":"global_black"
+ }
+ 
+ ]
+,
+[
+ {
+ "name": "1.0L以下",
+ "id": 1,
+ "attribute":"displacement"
+ }
+ ,
+ {
+ "name": "1.0L-1.4L",
+ "id": 2,
+ "attribute":"displacement"
+ }
+ ,
+ {
+ "name": "1.4L-1.6L",
+ "id": 3,
+ "attribute":"displacement"
+ }
+ ,
+ {
+ "name": "1.6-2.0L",
+ "id": 4,
+ "attribute":"displacement"
+ }
+ ,
+ {
+ "name": "2.0L-2.5L",
+ "id": 5,
+ "attribute":"displacement"
+ }
+ ,
+ {
+ "name": "2.5L以上",
+ "id": 6,
+ "attribute":"displacement"
+ }
+ 
+ ]
+,
+[
+ {
+ "name": "两厢",
+ "id": 1,
+ "attribute":"frame"
+ }
+ ,
+ {
+ "name": "三厢",
+ "id": 2,
+ "attribute":"frame"
+ }
+ 
+ ]
+ 
+ ,
+[
+ {
+ "name": "手动",
+ "id": 1,
+ "attribute":"transmition"
+ }
+ ,
+ {
+ "name": "自动",
+ "id": 2,
+ "attribute":"transmition"
+ }
+ 
+ ]
+ ,
+[
+ 
+{
+ "name": "ISO FIX儿童座椅接口",
+ "id": 1,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "LATCH儿童座椅接口",
+ "id": 2,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "前雾灯",
+ "id": 28,
+ "attribute":"config"
+ }
+ ,
+
+ {
+ "name": "定速巡航",
+ "id": 10,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "无钥匙启动系统",
+ "id": 4,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "天窗",
+ "id": 6,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "多功能方向盘",
+ "id": 8,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "车身稳定控制（ESP/DSC等）",
+ "id": 5,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "倒车视频影像",
+ "id": 11,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "自动泊车入位",
+ "id": 12,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "第三排座椅",
+ "id": 16,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "前排座椅加热",
+ "id": 15,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "真皮/仿皮座椅",
+ "id": 13,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "日间行车灯",
+ "id": 26,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "中控台彩色大屏",
+ "id": 20,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "副驾驶座电动调节",
+ "id": 14,
+ "attribute":"config"
+ }
+ ,
+ 
+{
+ "name": "8喇叭以上扬声器系统",
+ "id": 23,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "氙气大灯",
+ "id": 24,
+ "attribute":"config"
+ }
+ ,
+ 
+ {
+ "name": "GPS导航系统",
+ "id": 18,
+ "attribute":"config"
+ }
+ ,
+ 
+ 
+ 
+ {
+ "name": "自动空调",
+ "id": 30,
+ "attribute":"config"
+ }
+ ,
+ {
+ "name": "后排出风口",
+ "id": 31,
+ "attribute":"config"
+ },
+ {
+ "name": "外接音源接口（AUX/USB等）",
+ "id": 22,
+ "attribute":"config"
+ }
+ 
+ 
+ 
+ 
+ ]
+ 
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lFU-DT-6BT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="4Pu-K8-Qo4">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="lFU-DT-6BT" customClass="ZXDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Vx-uw-M4r"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wiy-lG-w26"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j3E-1W-JMB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eqf-Bw-1u9">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lFU-DT-6BT" id="bQQ-6i-m5b"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eqf-Bw-1u9" firstAttribute="top" secondItem="9Vx-uw-M4r" secondAttribute="bottom" id="Cbw-Fg-KTF"/>
+                            <constraint firstItem="eqf-Bw-1u9" firstAttribute="leading" secondItem="j3E-1W-JMB" secondAttribute="leading" id="Tie-n1-rFK"/>
+                            <constraint firstAttribute="trailing" secondItem="eqf-Bw-1u9" secondAttribute="trailing" id="fd4-ig-A5V"/>
+                            <constraint firstItem="Wiy-lG-w26" firstAttribute="top" secondItem="eqf-Bw-1u9" secondAttribute="bottom" constant="49" id="pDe-2S-b2d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="eqf-Bw-1u9" id="J1U-Ge-pZ2"/>
+                        <outlet property="webViewOffBottom" destination="pDe-2S-b2d" id="J5s-II-821"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P7p-C7-8OJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="164"/>
+        </scene>
+    </scenes>
+</document>

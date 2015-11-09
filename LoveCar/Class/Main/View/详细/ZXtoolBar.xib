@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZXtoolBar">
+            <connections>
+                <outlet property="clickBtn" destination="5tK-Tl-hrv" id="Mnc-6R-mCB"/>
+                <outlet property="contentView" destination="BKn-9r-yKD" id="6bP-0F-Y2L"/>
+                <outlet property="labelBtn" destination="cAU-Ni-RTs" id="7ed-N9-7ez"/>
+                <outlet property="rightBtnWidth" destination="wWl-QR-KQv" id="7lX-4k-pXz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKn-9r-yKD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QA3-AV-Ym4">
+                            <rect key="frame" x="8" y="13" width="33.5" height="22"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="QA3-AV-Ym4" secondAttribute="height" multiplier="23:15" id="fNq-8O-L4F"/>
+                            </constraints>
+                            <state key="normal" image="shoucang"/>
+                            <connections>
+                                <action selector="collectTouch:" destination="-1" eventType="touchUpInside" id="WRh-RZ-97g"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAU-Ni-RTs">
+                            <rect key="frame" x="336" y="11" width="30.5" height="28"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30.5" id="wWl-QR-KQv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="15评">
+                                <color key="titleColor" red="0.10980392160000001" green="0.61960784310000006" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="labelTouch:" destination="-1" eventType="touchUpInside" id="mPA-mE-O7O"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tK-Tl-hrv">
+                            <rect key="frame" x="51" y="10" width="275" height="30"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.93116714020000002" green="0.93116714020000002" blue="0.93116714020000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="2p9-Ra-iH4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="12" maxY="0.0"/>
+                            <state key="normal" title="写评论" image="pinglun_h">
+                                <color key="titleColor" red="0.10980392160000001" green="0.61960784310000006" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickTouch:" destination="-1" eventType="touchUpInside" id="etF-A5-PBC"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SeQ-ph-oLg">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="9ah-pw-Ijk"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="QA3-AV-Ym4" firstAttribute="leading" secondItem="BKn-9r-yKD" secondAttribute="leading" constant="8" id="0iI-zd-oEk"/>
+                        <constraint firstItem="SeQ-ph-oLg" firstAttribute="leading" secondItem="BKn-9r-yKD" secondAttribute="leading" id="1Ad-FC-VY3"/>
+                        <constraint firstItem="5tK-Tl-hrv" firstAttribute="centerY" secondItem="BKn-9r-yKD" secondAttribute="centerY" id="1FI-zU-wzy"/>
+                        <constraint firstItem="QA3-AV-Ym4" firstAttribute="centerY" secondItem="BKn-9r-yKD" secondAttribute="centerY" id="4Xq-TI-vxr"/>
+                        <constraint firstItem="5tK-Tl-hrv" firstAttribute="leading" secondItem="QA3-AV-Ym4" secondAttribute="trailing" constant="10" id="7Dh-tr-De2"/>
+                        <constraint firstItem="cAU-Ni-RTs" firstAttribute="leading" secondItem="5tK-Tl-hrv" secondAttribute="trailing" constant="10" id="87A-Vk-rrh"/>
+                        <constraint firstItem="SeQ-ph-oLg" firstAttribute="top" secondItem="BKn-9r-yKD" secondAttribute="top" id="Avu-3I-7BX"/>
+                        <constraint firstItem="cAU-Ni-RTs" firstAttribute="centerY" secondItem="BKn-9r-yKD" secondAttribute="centerY" id="Cqw-on-Pvh"/>
+                        <constraint firstAttribute="trailing" secondItem="SeQ-ph-oLg" secondAttribute="trailing" id="FfA-93-wDb"/>
+                        <constraint firstAttribute="trailing" secondItem="cAU-Ni-RTs" secondAttribute="trailing" constant="8" id="prh-Z2-Dbe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="BKn-9r-yKD" secondAttribute="trailing" id="SAV-J9-nFG"/>
+                <constraint firstItem="BKn-9r-yKD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WAg-5M-wfb"/>
+                <constraint firstItem="BKn-9r-yKD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZUl-BZ-An8"/>
+                <constraint firstAttribute="bottom" secondItem="BKn-9r-yKD" secondAttribute="bottom" id="gIe-Gk-0HY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="279.5" y="293.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pinglun_h" width="17" height="13"/>
+        <image name="shoucang" width="20" height="19"/>
+    </resources>
+</document>

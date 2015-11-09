@@ -1,0 +1,208 @@
+{
+  "confirmed": [
+                {
+                "pluginId": 100,
+                "title": "今日推荐",
+                "imageName": "plugin_wenzhang",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "JingCaiWenZhangViewController",
+                "needLogin": false,
+                "countPath":"pushNum",
+                "eventName":"jingcaiwenzhang",
+                "dingYueEventName":""
+                },{
+                "pluginId": 103,
+                "title": "系统通知",
+                "imageName": "plugin_tongzhi",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "XiTongTongZhiController",
+                "needLogin": true,
+                "countPath":"noticeNum",
+                "eventName":"xitongtongzhi",
+                "dingYueEventName":""
+                },
+                {
+                "pluginId": 101,
+                "title": "收到的回复",
+                "imageName": "plugin_huifu",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "ShouDaoDeHuiFuController",
+                "needLogin": true,
+                "countPath":"replyNum",
+                "eventName":"shoudaodehuifu",
+                "dingYueEventName":""
+                },
+                
+                {
+                "pluginId": 102,
+                "title": "私信",
+                "imageName": "plugin_sixin",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "MessagesListViewController",
+                "needLogin": true,
+                "countPath":"msgNum",
+                "eventName":"wodesixin",
+                "dingYueEventName":""
+                },
+                
+                {
+                "pluginId": 104,
+                "title": "草稿",
+                "imageName": "plugin_caogao",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "CaoGaoXiangController",
+                "needLogin": true,
+                "countPath":"caoGaoCount",
+                "eventName":"caogao",
+                "dingYueEventName":""
+                },
+                {
+                "pluginId": 105,
+                "title": "我的收藏",
+                "imageName": "plugin_shouchang",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "WoDeShouCangController",
+                "needLogin": true,
+                "eventName":"geren-wodeshoucang",
+                "dingYueEventName":""
+                },
+                {
+                "pluginId": 106,
+                "title": "打卡签到",
+                "imageName": "plugin_qiandao",
+                "openStyle": 0,
+                "pageUrl": "",
+                "subscribed": true,
+                "className": "SignViewController",
+                "needLogin": true,
+                "countPath":"registrationStatus",
+                "eventName":"qiandao",
+                "dingYueEventName":""
+                }
+                ],
+  "plugins": [
+              {
+              "pluginId": 107,
+              "title": "摇号查询",
+              "imageName": "plugin_yaohao",
+              "openStyle": 1,
+              "pageUrl": "http://a.xcar.com.cn/tool/yaohao/?zoneclick=101904&fromType=app",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"yaohaochaxun",
+              "dingYueEventName":"dingyueyaohaochaxun"
+              },
+              {
+              "pluginId": 108,
+              "title": "违章查询",
+              "imageName": "plugin_weizhang",
+              "openStyle": 1,
+              "pageUrl": "http://a.xcar.com.cn/tool/weizhang/?zoneclick=101903&fromType=app",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"weizhangchaxun",
+              "dingYueEventName":"dingyueweizhangchaxun"
+              },
+              {
+              "pluginId": 109,
+              "title": "免检计算",
+              "imageName": "plugin_mianjian",
+              "openStyle": 1,
+              "pageUrl": "http://a.xcar.com.cn/tool/check/?zoneclick=101905&fromType=app",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"mianjianjisuan",
+              "dingYueEventName":"dingyuemianjianjisuan"
+              },
+              {
+              "pluginId": 110,
+              "title": "购车计算",
+              "imageName": "plugin_gouche",
+              "openStyle": 0,
+              "pageUrl": "",
+              "subscribed": false,
+              "className": "ShopCarcalculatorViewController",
+              "needLogin": false,
+              "eventName":"gouchejisuan",
+              "dingYueEventName":"dingyuegouchejisuan"
+              },
+              {
+              "pluginId": 111,
+              "title": "贷款计算",
+              "imageName": "plugin_daikuan",
+              "openStyle": 0,
+              "pageUrl": "",
+              "subscribed": false,
+              "className": "ShopCarcalculatorViewController",
+              "needLogin": false,
+              "eventName":"daikuanjisuan",
+              "dingYueEventName":"dingyuedaikuanjisuan"
+              },
+              {
+              "pluginId": 112,
+              "title": "保养查询",
+              "imageName": "plugin_baoyang",
+              "openStyle": 1,
+              "pageUrl": "http://a.xcar.com.cn/tool/baoyang/?zoneclick=102034&fromType=app",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"baoyangchaxun",
+              "dingYueEventName":"dingyuebaoyangchaxun"
+              }
+              ,
+              {
+              "pluginId": 113,
+              "title": "车险计算",
+              "imageName": "plugin_chexian",
+              "openStyle": 1,
+              "pageUrl": "http://a.xcar.com.cn/tool/insurance/?zoneclick=102033&fromType=app",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"chexianjisuan",
+              "dingYueEventName":"dingyuechexianjisuan"
+              }
+              ,
+              {
+              "pluginId": 114,
+              "title": "宝驾租车",
+              "imageName": "plugin_baojia",
+              "openStyle": 2,
+              "pageUrl": "http://m.baojia.com/?utm_source=aikaqiche",
+              "subscribed": false,
+              "className": "CommonWebViewController",
+              "needLogin": false,
+              "eventName":"baojiazuche",
+              "dingYueEventName":"dingyuebaojiazuche"
+              }
+              ],
+  "subscribed":[],
+  "adder": {
+    "pluginId": 99,
+    "title": "添加工具",
+    "imageName": "plugin_tianjia",
+    "openStyle": 0,
+    "pageUrl": "",
+    "subscribed": true,
+    "className": "AddOrDelToolViewController",
+    "needLogin": false,
+    "eventName":"",
+    "dingYueEventName":""
+  }
+}
