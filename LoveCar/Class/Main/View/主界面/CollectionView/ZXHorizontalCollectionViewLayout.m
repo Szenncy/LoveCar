@@ -29,7 +29,7 @@
     
 //    NSLog(@"%ld",(long)[self.collectionView numberOfItemsInSection:0]);
     
-    CGFloat y = -60;
+    CGFloat y = - 60;
     
     CGFloat w = self.collectionView.frame.size.width;
     
